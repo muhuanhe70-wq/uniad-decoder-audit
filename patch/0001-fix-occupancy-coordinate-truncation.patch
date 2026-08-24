@@ -1,0 +1,21 @@
+Subject: [PATCH] planning_head: cast occupancy indices to float before metric conversion
+
+torch.nonzero returns int64. The two assignments below write float results back
+into that same int64 tensor, so every occupancy coordinate handed to the collision
+optimiser is truncated toward zero. On the 0.5 m BEV grid this displaces every
+occupied cell by a mean of 0.5 m -- one full cell -- and always toward the ego
+vehicle, because truncation toward zero is toward the grid origin, which is the
+ego. Cell (103, 97) reaches the solver at (-1.00, 1.00) m instead of
+(-1.25, 1.75) m.
+
+The cast must happen BEFORE the arithmetic. Casting afterwards truncates first
+and then converts the already-wrong integer, which is a no-op on the defect.
+
+--- a/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py
++++ b/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py
+@@
+             pos_xy = torch.nonzero(occ_mask[0][cur_t], as_tuple=False)
+             pos_xy = pos_xy[:, [1, 0]]
++            pos_xy = pos_xy.to(torch.float64)
+             pos_xy[:, 0] = (pos_xy[:, 0] - self.bev_h//2) * 0.5 + 0.25
+             pos_xy[:, 1] = (pos_xy[:, 1] - self.bev_w//2) * 0.5 + 0.25

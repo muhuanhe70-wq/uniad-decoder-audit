@@ -1,0 +1,36 @@
+{
+  "base": "R-0072_2026-08-17_baseline_full",
+  "arm": "R-0080_2026-08-19_egodiscs",
+  "k": 8,
+  "seed": 0,
+  "n_moved": 3338,
+  "self_validation_mismatches": 0,
+  "real_net": 10.0,
+  "rotated_net_per_draw": [
+    -23.0,
+    -24.0,
+    -32.0,
+    -13.0,
+    -27.0,
+    -27.0,
+    -17.0,
+    -22.0
+  ],
+  "draws_beating_real": 0,
+  "pairwise_frac_arbitrary_at_least_as_good": 0.9912747153984421,
+  "pairwise_decomposition": {
+    "ties": 26423,
+    "ties_both_zero": 26365,
+    "strict_wins_for_arbitrary": 48,
+    "losses_for_arbitrary": 233,
+    "frames_real_changes_outcome": 21,
+    "restricted_strictly_better": 38,
+    "restricted_tied": 58,
+    "restricted_worse": 72
+  },
+  "vs_mean_rotated": {
+    "advantage": 33.125,
+    "informative_frames": 83,
+    "p": 0.0
+  }
+}

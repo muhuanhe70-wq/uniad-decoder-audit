@@ -1,0 +1,60 @@
+{
+  "base": "R-0072_2026-08-17_baseline_full",
+  "arm": "R-0082_2026-08-20_egodiscs_sum",
+  "n_frames": 6019,
+  "n_moved": 3338,
+  "box": {
+    "arm": {
+      "repaired": 20,
+      "introduced": 36,
+      "net": -16
+    },
+    "mirror": {
+      "repaired": 22,
+      "introduced": 126,
+      "net": -104
+    },
+    "neg": {
+      "repaired": 25,
+      "introduced": 127,
+      "net": -102
+    },
+    "vs_mirror": {
+      "advantage": 88.0,
+      "informative_frames": 105,
+      "p": 0.0
+    },
+    "vs_neg": {
+      "advantage": 86.0,
+      "informative_frames": 118,
+      "p": 0.0
+    }
+  },
+  "point": {
+    "arm": {
+      "repaired": 6,
+      "introduced": 8,
+      "net": -2
+    },
+    "mirror": {
+      "repaired": 3,
+      "introduced": 25,
+      "net": -22
+    },
+    "neg": {
+      "repaired": 1,
+      "introduced": 15,
+      "net": -14
+    },
+    "vs_mirror": {
+      "advantage": 20.0,
+      "informative_frames": 16,
+      "p": 0.00185
+    },
+    "vs_neg": {
+      "advantage": 12.0,
+      "informative_frames": 21,
+      "p": 0.11151
+    }
+  }
+}

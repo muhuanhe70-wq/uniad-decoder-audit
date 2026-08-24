@@ -1,0 +1,36 @@
+{
+  "base": "R-0072_2026-08-17_baseline_full",
+  "arm": "R-0073_2026-08-17_quantfix_full",
+  "k": 8,
+  "seed": 0,
+  "n_moved": 3339,
+  "self_validation_mismatches": 0,
+  "real_net": 11.0,
+  "rotated_net_per_draw": [
+    -69.0,
+    -87.0,
+    -78.0,
+    -59.0,
+    -56.0,
+    -65.0,
+    -68.0,
+    -73.0
+  ],
+  "draws_beating_real": 0,
+  "pairwise_frac_arbitrary_at_least_as_good": 0.9888439652590596,
+  "pairwise_decomposition": {
+    "ties": 26340,
+    "ties_both_zero": 26272,
+    "strict_wins_for_arbitrary": 74,
+    "losses_for_arbitrary": 298,
+    "frames_real_changes_outcome": 25,
+    "restricted_strictly_better": 60,
+    "restricted_tied": 68,
+    "restricted_worse": 72
+  },
+  "vs_mean_rotated": {
+    "advantage": 80.375,
+    "informative_frames": 102,
+    "p": 0.0
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "baseline": "R-0072_2026-08-17_baseline_full",
+  "arm": "R-0082_2026-08-20_egodiscs_sum",
+  "n": 6019,
+  "L2@0.5": {
+    "point": 0.3365062445207869,
+    "discs": 0.45912018899730317,
+    "delta": 0.12261394447651616,
+    "ci": [
+      0.11542572463758155,
+      0.12989581597351968
+    ],
+    "significant": true
+  },
+  "L2@1.0": {
+    "point": 0.5071049183648235,
+    "discs": 0.6106440714016683,
+    "delta": 0.10353915303684487,
+    "ci": [
+      0.09710886001163019,
+      0.11018076389728644
+    ],
+    "significant": true
+  },
+  "L2@1.5": {
+    "point": 0.7187672070816062,
+    "discs": 0.7979481459092043,
+    "delta": 0.07918093882759782,
+    "ci": [
+      0.07374020959367668,
+      0.08469141607367392
+    ],
+    "significant": true
+  },
+  "L2@2.0": {
+    "point": 0.9811940011588898,
+    "discs": 1.0592550656745232,
+    "delta": 0.07806106451563342,
+    "ci": [
+      0.07187798693215577,
+      0.08463158838523652
+    ],
+    "significant": true
+  },
+  "L2@2.5": {
+    "point": 1.288752253104695,
+    "discs": 1.3497891934703523,
+    "delta": 0.06103694036565712,
+    "ci": [
+      0.05456274693423946,
+      0.06771416925997131
+    ],
+    "significant": true
+  },
+  "L2@3.0": {
+    "point": 1.6468875080620153,
+    "discs": 1.7188717331530852,
+    "delta": 0.07198422509106946,
+    "ci": [
+      0.06427944607353366,
+      0.07989353270910043
+    ],
+    "significant": true
+  },
+  "obj_box_col@0.5": {
+    "point": 3,
+    "discs": 6,
+    "repaired": 1,
+    "introduced": 4,
+    "p": 0.375
+  },
+  "obj_box_col@1.0": {
+    "point": 6,
+    "discs": 6,
+    "repaired": 4,
+    "introduced": 4,
+    "p": 1.0
+  },
+  "obj_box_col@1.5": {
+    "point": 8,
+    "discs": 7,
+    "repaired": 4,
+    "introduced": 3,
+    "p": 1.0
+  },
+  "obj_box_col@2.0": {
+    "point": 10,
+    "discs": 18,
+    "repaired": 2,
+    "introduced": 10,
+    "p": 0.03857421875
+  },
+  "obj_box_col@2.5": {
+    "point": 18,
+    "discs": 20,
+    "repaired": 4,
+    "introduced": 6,
+    "p": 0.75390625
+  },
+  "obj_box_col@3.0": {
+    "point": 37,
+    "discs": 41,
+    "repaired": 5,
+    "introduced": 9,
+    "p": 0.4239501953125
+  },
+  "obj_box_col@any": {
+    "point": 53,
+    "discs": 61,
+    "repaired": 12,
+    "introduced": 20,
+    "p": 0.21532714972272515
+  },
+  "obj_col@0.5": {
+    "point": 0,
+    "discs": 0,
+    "repaired": 0,
+    "introduced": 0,
+    "p": 1.0
+  },
+  "obj_col@1.0": {
+    "point": 0,
+    "discs": 0,
+    "repaired": 0,
+    "introduced": 0,
+    "p": 1.0
+  },
+  "obj_col@1.5": {
+    "point": 2,
+    "discs": 1,
+    "repaired": 1,
+    "introduced": 0,
+    "p": 1.0
+  },
+  "obj_col@2.0": {
+    "point": 2,
+    "discs": 2,
+    "repaired": 0,
+    "introduced": 0,
+    "p": 1.0
+  },
+  "obj_col@2.5": {
+    "point": 4,
+    "discs": 2,
+    "repaired": 3,
+    "introduced": 1,
+    "p": 0.625
+  },
+  "obj_col@3.0": {
+    "point": 6,
+    "discs": 11,
+    "repaired": 2,
+    "introduced": 7,
+    "p": 0.1796875
+  },
+  "obj_col@any": {
+    "point": 10,
+    "discs": 12,
+    "repaired": 5,
+    "introduced": 7,
+    "p": 0.7744140625
+  }
+}

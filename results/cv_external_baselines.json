@@ -1,0 +1,81 @@
+{
+  "inverse TTC (no model)": {
+    "frame_auroc": 65.17219708259535,
+    "object_auroc": 56.03540158923693,
+    "top1": 63.075971603393555,
+    "kinematic_auroc": 59.72260653885186,
+    "occlusion_auroc": 51.08624355207263
+  },
+  "MSP-analogue": {
+    "frame_auroc": 60.8694140947535,
+    "object_auroc": 49.447396748241204,
+    "top1": 40.90179204940796,
+    "kinematic_auroc": 40.39029743797988,
+    "occlusion_auroc": 61.60430596736566
+  },
+  "kNN k=50": {
+    "frame_auroc": 60.654426152404305,
+    "object_auroc": 59.99391020085286,
+    "top1": 63.026559352874756,
+    "kinematic_auroc": 55.34581343221312,
+    "occlusion_auroc": 66.2328271567528
+  },
+  "Mahalanobis": {
+    "frame_auroc": 62.90871565678222,
+    "object_auroc": 48.11513157167806,
+    "top1": 43.891289830207825,
+    "kinematic_auroc": 59.62952073833463,
+    "occlusion_auroc": 32.65992024876333
+  },
+  "LDA (supervision-matched)": {
+    "frame_auroc": 80.4548206039091,
+    "object_auroc": 82.02633415542032,
+    "top1": 81.98888301849365,
+    "kinematic_auroc": 89.4503717221265,
+    "occlusion_auroc": 72.06140524760065
+  },
+  "Object-level MLP (ours)": {
+    "frame_auroc": 88.69056003689228,
+    "object_auroc": 92.05211666654107,
+    "top1": 88.72143030166626,
+    "kinematic_auroc": 96.78368535956815,
+    "occlusion_auroc": 85.70115935728289
+  },
+  "chance_top1": 46.11488580703735,
+  "n_top1_frames": 8095,
+  "vs_inverse TTC (no model)": {
+    "point": 36.016715077304134,
+    "ci": [
+      35.63411990495163,
+      36.401692988632895
+    ]
+  },
+  "vs_MSP-analogue": {
+    "point": 42.604719918299864,
+    "ci": [
+      42.15049684380513,
+      43.06781476616743
+    ]
+  },
+  "vs_kNN k=50": {
+    "point": 32.05820646568821,
+    "ci": [
+      31.621953191815237,
+      32.48247469561195
+    ]
+  },
+  "vs_Mahalanobis": {
+    "point": 43.936985094863005,
+    "ci": [
+      43.52445422148192,
+      44.39160635833658
+    ]
+  },
+  "vs_LDA (supervision-matched)": {
+    "point": 10.025782511120752,
+    "ci": [
+      9.776928024286452,
+      10.260115915426237
+    ]
+  }
+}

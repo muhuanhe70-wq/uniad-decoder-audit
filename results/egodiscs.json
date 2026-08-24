@@ -1,0 +1,163 @@
+{
+  "baseline": "R-0072_2026-08-17_baseline_full",
+  "arm": "R-0080_2026-08-19_egodiscs",
+  "n": 6019,
+  "L2@0.5": {
+    "point": 0.3365062445207869,
+    "discs": 0.3671056254128152,
+    "delta": 0.030599380892028325,
+    "ci": [
+      0.02724930624778823,
+      0.03407192297505734
+    ],
+    "significant": true
+  },
+  "L2@1.0": {
+    "point": 0.5071049183648235,
+    "discs": 0.5235438839058761,
+    "delta": 0.016438965541052585,
+    "ci": [
+      0.013910812010254474,
+      0.018986933581118626
+    ],
+    "significant": true
+  },
+  "L2@1.5": {
+    "point": 0.7187672070816062,
+    "discs": 0.7269113601591931,
+    "delta": 0.00814415307758665,
+    "ci": [
+      0.006060750899957139,
+      0.01032051150949861
+    ],
+    "significant": true
+  },
+  "L2@2.0": {
+    "point": 0.9811940011588898,
+    "discs": 0.9955481298869461,
+    "delta": 0.014354128728056293,
+    "ci": [
+      0.011735075341516887,
+      0.017049903940136068
+    ],
+    "significant": true
+  },
+  "L2@2.5": {
+    "point": 1.288752253104695,
+    "discs": 1.2954466580980435,
+    "delta": 0.006694404993348507,
+    "ci": [
+      0.003890830442078682,
+      0.009578190146374413
+    ],
+    "significant": true
+  },
+  "L2@3.0": {
+    "point": 1.6468875080620153,
+    "discs": 1.662389006742271,
+    "delta": 0.015501498680255346,
+    "ci": [
+      0.01129592128843393,
+      0.01972511366541927
+    ],
+    "significant": true
+  },
+  "obj_box_col@0.5": {
+    "point": 3,
+    "discs": 1,
+    "repaired": 2,
+    "introduced": 0,
+    "p": 0.5
+  },
+  "obj_box_col@1.0": {
+    "point": 6,
+    "discs": 4,
+    "repaired": 3,
+    "introduced": 1,
+    "p": 0.625
+  },
+  "obj_box_col@1.5": {
+    "point": 8,
+    "discs": 5,
+    "repaired": 3,
+    "introduced": 0,
+    "p": 0.25
+  },
+  "obj_box_col@2.0": {
+    "point": 10,
+    "discs": 8,
+    "repaired": 3,
+    "introduced": 1,
+    "p": 0.625
+  },
+  "obj_box_col@2.5": {
+    "point": 18,
+    "discs": 18,
+    "repaired": 4,
+    "introduced": 4,
+    "p": 1.0
+  },
+  "obj_box_col@3.0": {
+    "point": 37,
+    "discs": 36,
+    "repaired": 3,
+    "introduced": 2,
+    "p": 1.0
+  },
+  "obj_box_col@any": {
+    "point": 53,
+    "discs": 49,
+    "repaired": 9,
+    "introduced": 5,
+    "p": 0.4239501953125
+  },
+  "obj_col@0.5": {
+    "point": 0,
+    "discs": 0,
+    "repaired": 0,
+    "introduced": 0,
+    "p": 1.0
+  },
+  "obj_col@1.0": {
+    "point": 0,
+    "discs": 0,
+    "repaired": 0,
+    "introduced": 0,
+    "p": 1.0
+  },
+  "obj_col@1.5": {
+    "point": 2,
+    "discs": 1,
+    "repaired": 1,
+    "introduced": 0,
+    "p": 1.0
+  },
+  "obj_col@2.0": {
+    "point": 2,
+    "discs": 2,
+    "repaired": 0,
+    "introduced": 0,
+    "p": 1.0
+  },
+  "obj_col@2.5": {
+    "point": 4,
+    "discs": 4,
+    "repaired": 0,
+    "introduced": 0,
+    "p": 1.0
+  },
+  "obj_col@3.0": {
+    "point": 6,
+    "discs": 8,
+    "repaired": 1,
+    "introduced": 3,
+    "p": 0.625
+  },
+  "obj_col@any": {
+    "point": 10,
+    "discs": 12,
+    "repaired": 1,
+    "introduced": 3,
+    "p": 0.625
+  }
+}

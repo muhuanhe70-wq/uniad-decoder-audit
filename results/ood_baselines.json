@@ -1,0 +1,44 @@
+{
+  "table": {
+    "MSP-analogue": {
+      "supervision": "none (ID-only)",
+      "auroc_raw": 50.20107725975394,
+      "fpr95_raw": 94.76537353887853,
+      "auroc_ema_interleaved": 51.03251097419985,
+      "n_empty_dropped": 72
+    },
+    "Mahalanobis": {
+      "supervision": "none (ID-only)",
+      "auroc_raw": 59.019172528984676,
+      "fpr95_raw": 92.61392512281891,
+      "auroc_ema_interleaved": 58.889195998070164,
+      "n_empty_dropped": 72
+    },
+    "kNN (k=50)": {
+      "supervision": "none (ID-only)",
+      "auroc_raw": 55.749608931131256,
+      "fpr95_raw": 92.2751143486363,
+      "auroc_ema_interleaved": 55.50297053832277,
+      "n_empty_dropped": 72
+    },
+    "Gaussian LDA (LLR)": {
+      "supervision": "risk frame labels",
+      "auroc_raw": 70.22548748629153,
+      "fpr95_raw": 78.51939691682196,
+      "auroc_ema_interleaved": 69.5695220885802,
+      "n_empty_dropped": 72
+    },
+    "Energy head (ours)": {
+      "supervision": "risk frame labels",
+      "auroc_raw": 79.74361733007203,
+      "auroc_raw_std": 1.2378745213976419,
+      "fpr95_raw": 76.3645603930205,
+      "fpr95_raw_std": 3.80949589702002,
+      "auroc_ema_interleaved": 79.89544022119787,
+      "n_empty_dropped": 72
+    }
+  },
+  "k": 50,
+  "n_test_frames": 6830,
+  "n_id_bank_tracks": 743999
+}

@@ -1,0 +1,163 @@
+{
+  "baseline": "R-0072_2026-08-17_baseline_full",
+  "arm": "R-0083_2026-08-22_quantround",
+  "n": 6019,
+  "L2@0.5": {
+    "point": 0.3365062445207869,
+    "discs": 0.2640819109010183,
+    "delta": -0.07242433361976863,
+    "ci": [
+      -0.07754864888580025,
+      -0.06744812874429139
+    ],
+    "significant": true
+  },
+  "L2@1.0": {
+    "point": 0.5071049183648235,
+    "discs": 0.44174180733414675,
+    "delta": -0.06536311103067674,
+    "ci": [
+      -0.07047983044280681,
+      -0.060510968026334475
+    ],
+    "significant": true
+  },
+  "L2@1.5": {
+    "point": 0.7187672070816062,
+    "discs": 0.6621945484097158,
+    "delta": -0.05657265867189052,
+    "ci": [
+      -0.06139349780162963,
+      -0.05193779791496548
+    ],
+    "significant": true
+  },
+  "L2@2.0": {
+    "point": 0.9811940011588898,
+    "discs": 0.9330196973674175,
+    "delta": -0.04817430379147217,
+    "ci": [
+      -0.0526416521861454,
+      -0.043874608196744824
+    ],
+    "significant": true
+  },
+  "L2@2.5": {
+    "point": 1.288752253104695,
+    "discs": 1.2479147925302192,
+    "delta": -0.04083746057447598,
+    "ci": [
+      -0.04506776703341048,
+      -0.036761649332213014
+    ],
+    "significant": true
+  },
+  "L2@3.0": {
+    "point": 1.6468875080620153,
+    "discs": 1.6097280765852389,
+    "delta": -0.037159431476776694,
+    "ci": [
+      -0.04200519834189675,
+      -0.0324918092874824
+    ],
+    "significant": true
+  },
+  "obj_box_col@0.5": {
+    "point": 3,
+    "discs": 0,
+    "repaired": 3,
+    "introduced": 0,
+    "p": 0.25
+  },
+  "obj_box_col@1.0": {
+    "point": 6,
+    "discs": 5,
+    "repaired": 3,
+    "introduced": 2,
+    "p": 1.0
+  },
+  "obj_box_col@1.5": {
+    "point": 8,
+    "discs": 7,
+    "repaired": 4,
+    "introduced": 3,
+    "p": 1.0
+  },
+  "obj_box_col@2.0": {
+    "point": 10,
+    "discs": 8,
+    "repaired": 3,
+    "introduced": 1,
+    "p": 0.625
+  },
+  "obj_box_col@2.5": {
+    "point": 18,
+    "discs": 17,
+    "repaired": 2,
+    "introduced": 1,
+    "p": 1.0
+  },
+  "obj_box_col@3.0": {
+    "point": 37,
+    "discs": 35,
+    "repaired": 5,
+    "introduced": 3,
+    "p": 0.7265625
+  },
+  "obj_box_col@any": {
+    "point": 53,
+    "discs": 48,
+    "repaired": 12,
+    "introduced": 7,
+    "p": 0.359283447265625
+  },
+  "obj_col@0.5": {
+    "point": 0,
+    "discs": 0,
+    "repaired": 0,
+    "introduced": 0,
+    "p": 1.0
+  },
+  "obj_col@1.0": {
+    "point": 0,
+    "discs": 0,
+    "repaired": 0,
+    "introduced": 0,
+    "p": 1.0
+  },
+  "obj_col@1.5": {
+    "point": 2,
+    "discs": 2,
+    "repaired": 0,
+    "introduced": 0,
+    "p": 1.0
+  },
+  "obj_col@2.0": {
+    "point": 2,
+    "discs": 2,
+    "repaired": 0,
+    "introduced": 0,
+    "p": 1.0
+  },
+  "obj_col@2.5": {
+    "point": 4,
+    "discs": 4,
+    "repaired": 0,
+    "introduced": 0,
+    "p": 1.0
+  },
+  "obj_col@3.0": {
+    "point": 6,
+    "discs": 6,
+    "repaired": 1,
+    "introduced": 1,
+    "p": 1.0
+  },
+  "obj_col@any": {
+    "point": 10,
+    "discs": 9,
+    "repaired": 1,
+    "introduced": 0,
+    "p": 1.0
+  }
+}

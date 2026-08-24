@@ -1,0 +1,60 @@
+{
+  "base": "R-0072_2026-08-17_baseline_full",
+  "arm": "R-0073_2026-08-17_quantfix_full",
+  "n_frames": 6019,
+  "n_moved": 3339,
+  "box": {
+    "arm": {
+      "repaired": 20,
+      "introduced": 9,
+      "net": 11
+    },
+    "mirror": {
+      "repaired": 10,
+      "introduced": 79,
+      "net": -69
+    },
+    "neg": {
+      "repaired": 5,
+      "introduced": 16,
+      "net": -11
+    },
+    "vs_mirror": {
+      "advantage": 80.0,
+      "informative_frames": 60,
+      "p": 0.0
+    },
+    "vs_neg": {
+      "advantage": 22.0,
+      "informative_frames": 31,
+      "p": 0.01071
+    }
+  },
+  "point": {
+    "arm": {
+      "repaired": 1,
+      "introduced": 1,
+      "net": 0
+    },
+    "mirror": {
+      "repaired": 1,
+      "introduced": 3,
+      "net": -2
+    },
+    "neg": {
+      "repaired": 1,
+      "introduced": 2,
+      "net": -1
+    },
+    "vs_mirror": {
+      "advantage": 2.0,
+      "informative_frames": 6,
+      "p": 0.68846
+    },
+    "vs_neg": {
+      "advantage": 1.0,
+      "informative_frames": 5,
+      "p": 1.0
+    }
+  }
+}

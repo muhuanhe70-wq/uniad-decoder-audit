@@ -1,0 +1,37 @@
+{
+  "base": "R-0072_2026-08-17_baseline_full",
+  "arm": "R-0073_2026-08-17_quantfix_full",
+  "raw": "R-0084_2026-08-21_nocoloptim",
+  "k": 8,
+  "seed": 0,
+  "n_moved": 3339,
+  "n_eligible": 3338,
+  "n_skipped": 1,
+  "retention_mean": 0.36099899233831106,
+  "retention_median": 0.3612227033573313,
+  "self_validation_mismatches": 0,
+  "real_arm_net": 11.0,
+  "real_allocation_net": 12.0,
+  "permuted_net_per_draw": [
+    -31.0,
+    -23.0,
+    -22.0,
+    -18.0,
+    -13.0,
+    -19.0,
+    -29.0,
+    -29.0
+  ],
+  "permutations_beating_real": 0,
+  "pairwise_decomposition": {
+    "ties": 26433,
+    "ties_both_zero": 26283,
+    "strict_wins_for_permuted": 37,
+    "losses_for_permuted": 234
+  },
+  "vs_mean_permuted": {
+    "advantage": 35.0,
+    "informative_frames": 86,
+    "p": 0.0
+  }
+}

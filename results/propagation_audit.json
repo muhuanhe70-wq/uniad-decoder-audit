@@ -1,0 +1,372 @@
+{
+  "DEFECT": [
+    {
+      "repo": "8848-lxf/UniAD-and-UniV2X-TRT",
+      "path": "UniAD/repro/UniAD_deploy/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "AIR-THU/UniV2X",
+      "path": "projects/mmdet3d_plugin/univ2x/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "Argus4ADS/Argus",
+      "path": "Bench2DriveZoo/mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "AzukiScarlet/UniAD_demo",
+      "path": "projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "BufuZhou/shenlan_e2e",
+      "path": "chapter2_bev_encoder/home_work_v1/home_work/DriveTransformer/mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "Chauncy-li/StyleSim",
+      "path": "bridgesim/modelzoo/bench2drive/mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "CurryChen77/CraftPolicy",
+      "path": "rift/ego/b2d/mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "CurryChen77/RIFT",
+      "path": "rift/ego/b2d/mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "Dream-xinghe/AD",
+      "path": "UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "DriveVLA/OpenDriveVLA",
+      "path": "projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "EduProgram/Autonomous-Driving",
+      "path": "UniAD-main/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "Egerialiu/momad_new",
+      "path": "MomAD-main/close_loop/VAD_MomAD/Bench2DriveZoo/mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "HJkim0726/Advanced_Computer_Vision_Project",
+      "path": "mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "HLC-Lab/tt-ivf",
+      "path": "models/experimental/uniad/reference/planning_head.py"
+    },
+    {
+      "repo": "Hann4266/UniAD",
+      "path": "projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "Kguo-cs/iPad",
+      "path": "Bench2DriveZoo/bench2driveMMCV/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "LogosRoboticsGroup/VeteranAD",
+      "path": "Bench2DriveZoo/bench2driveMMCV/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "MingfeiCheng/Drivora",
+      "path": "agent_corpus/uniad_vad/mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "NVIDIA/DL4AGX",
+      "path": "AV-Solutions/uniad-trt/patch/uniad-onnx-export.patch"
+    },
+    {
+      "repo": "OpenDriveLab/Navformer",
+      "path": "mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "OpenDriveLab/UniAD",
+      "path": "projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "OpenDriveLab/ViDAR",
+      "path": "UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "OpenDriveLab/WorldEngine",
+      "path": "projects/AlgEngine/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "PJLab-ADG/DriveArena",
+      "path": "DrivingAgents/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "Plumess/UniAD-mini",
+      "path": "UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "Robot-K/Hint-AD",
+      "path": "Hint-UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "Souig/UniMM-V2X",
+      "path": "projects/mmdet3d_plugin/unimmv2x/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "Thinklab-SJTU/Bench2DriveZoo",
+      "path": "mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "Thinklab-SJTU/DriveTransformer",
+      "path": "mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "Torreskai0722/RT-BEV",
+      "path": "UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "VAIL-UCLA/BridgeSim",
+      "path": "bridgesim/modelzoo/bench2drive/mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "Yizhxy/ExpertAD",
+      "path": "Expert-UniAD/projects/mmdet3d_plugin/expertuniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "Yongqi7/RPG",
+      "path": "projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "adept-thu/MomAD",
+      "path": "close_loop/VAD_MomAD/Bench2DriveZoo/mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "ai4ce/CAAPolicy",
+      "path": "Bench2DriveZoo/mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "alphaxhy/polaris",
+      "path": "workloads/FusionAD/projects/mmdet_plugin/fusionad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "avozzn/V2X_VLM",
+      "path": "UniV2X/projects/mmdet3d_plugin/univ2x/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "birdvisual/UniAD_annotation",
+      "path": "projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "buptcwk/UniAD",
+      "path": "projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "daehyunwe/FrozenDrive",
+      "path": "DrivingAgents/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "ecoreal/whu-term3-archive",
+      "path": "Term3-2/7.18/UniAD-2.0/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "firdovsimammedovk/tt-metal",
+      "path": "models/experimental/uniad/reference/planning_head.py"
+    },
+    {
+      "repo": "georgeliu233/HPP",
+      "path": "hpp/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "huakh/grade-posttrain",
+      "path": "modified_src/ad_hooks/planning_head_ref.py"
+    },
+    {
+      "repo": "hyzhou404/UniAD_SIM",
+      "path": "projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "hzjian123/VLArena",
+      "path": "DrivingAgents/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "ianz27/fusionad",
+      "path": "projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "jichengzh/Bench2DriveZoo_trb",
+      "path": "mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "jichengzh/DL4AGX_trb",
+      "path": "AV-Solutions/uniad-trt/patch/uniad-onnx-export.patch"
+    },
+    {
+      "repo": "jichengzh/UniAD-mine",
+      "path": "projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "jichengzh/UniV2X_full",
+      "path": "projects/mmdet3d_plugin/univ2x/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "jichengzh/trb",
+      "path": "mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "klingjac/UniAD-Evaluation",
+      "path": "projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "krauwu/DriveRoll",
+      "path": "UniADBench/UniAD/mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "luck-zye/diffusion",
+      "path": "DriveTransformer/mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "lyudeyun/E2ERep",
+      "path": "Bench2DriveZoo/mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "mingjielu/TC-Autonomous-Driving-Project",
+      "path": "UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "mlcommons/mlperf_automotive",
+      "path": "automotive/end-to-end/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "neocodered/MomAD-EN4554",
+      "path": "close_loop/VAD_MomAD/Bench2DriveZoo/mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "priest-yang/VAD-VLM",
+      "path": "vad/mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "priest-yang/VADv2",
+      "path": "mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "rwchaneyjr/tt-metal-work",
+      "path": "models/experimental/uniad/reference/planning_head.py"
+    },
+    {
+      "repo": "salmanra/TT-SpMM-Nov2025",
+      "path": "models/experimental/uniad/reference/planning_head.py"
+    },
+    {
+      "repo": "scloin/backup_metal",
+      "path": "models/experimental/uniad/reference/planning_head.py"
+    },
+    {
+      "repo": "shenyinzhe/DMAD",
+      "path": "projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "spriglithika/UQ_Proj",
+      "path": "VAD/inference/runner.py"
+    },
+    {
+      "repo": "ssinghalTT/tt-metal-magna",
+      "path": "models/experimental/uniad/reference/planning_head.py"
+    },
+    {
+      "repo": "tenstorrent/polaris",
+      "path": "workloads/FusionAD/projects/mmdet_plugin/fusionad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "path": "models/experimental/uniad/reference/planning_head.py"
+    },
+    {
+      "repo": "tthongbos/tt-metal-bos",
+      "path": "models/experimental/uniad/reference/planning_head.py"
+    },
+    {
+      "repo": "vessl-ai/examples",
+      "path": "deprecated/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "waterluy/MA2T",
+      "path": "uniad/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "woxihuanjiangguo/Hydra-NeXt",
+      "path": "mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "wzzheng/GenAD",
+      "path": "closed-loop/mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "yangzvv/LET-VIC",
+      "path": "projects/mmdet3d_plugin/xet_vic/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "zacz08/UniAD",
+      "path": "projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "zhumorui/M3CAD",
+      "path": "mmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "zhumorui/dCAP",
+      "path": "mmcv/models/dense_heads/planning_head.py"
+    }
+  ],
+  "FIXED": [],
+  "ABSENT": [
+    {
+      "repo": "AI-secure/AgentPoison",
+      "path": "agentdriver/reasoning/collision_optimization.py"
+    },
+    {
+      "repo": "Jittor/JAD",
+      "path": "E2E-AD/UniAD/jtmmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "Jlehavi/PoisoningAgents",
+      "path": "Semester2/AgentPoison/agentdriver/reasoning/collision_optimization.py"
+    },
+    {
+      "repo": "PointsCoder/Agent-Driver",
+      "path": "agentdriver/planning/motion_planning.py"
+    },
+    {
+      "repo": "Thinklab-SJTU/Bench2Drive-Jittor",
+      "path": "jtmmcv/models/dense_heads/planning_head.py"
+    },
+    {
+      "repo": "YANG-Deep/VI-Planning",
+      "path": "vehicle_ws/src/planning_refine/collision_optimizer_pkg/src/collision_optimizer_node.cpp"
+    },
+    {
+      "repo": "Yunhao-Feng/AgentBackdoorBench",
+      "path": "task/agentdriver/planning/motion_planning.py"
+    },
+    {
+      "repo": "ailia-ai/ailia-models",
+      "path": "autonomous_driving/uniad/uniad.py"
+    },
+    {
+      "repo": "chinmaynadgir/AgentPoison-Reproduction",
+      "path": "agentdriver/reasoning/collision_optimization.py"
+    },
+    {
+      "repo": "himanishsharma/Agent-Driver_LLaMA",
+      "path": "agentdriver/planning/motion_planning.py"
+    },
+    {
+      "repo": "physical-superintelligence-lab/Agent-Driver",
+      "path": "agentdriver/planning/motion_planning.py"
+    },
+    {
+      "repo": "rnb-encore/RnB-EnCoRe-SelfDriving",
+      "path": "Agent-Driver/agentdriver/planning/motion_planning.py"
+    },
+    {
+      "repo": "tenstorrent/tt-forge-models",
+      "path": "uniad/pytorch/src/planning_head.py"
+    }
+  ],
+  "ERROR": []
+}

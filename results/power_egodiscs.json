@@ -1,0 +1,20 @@
+{
+  "box": {
+    "any_repaired": 9,
+    "any_introduced": 5,
+    "any_p": 0.4239501953125,
+    "cell_repaired": 18,
+    "cell_introduced": 8,
+    "cell_informative_frames": 21,
+    "cell_p": 0.16688
+  },
+  "point": {
+    "any_repaired": 1,
+    "any_introduced": 3,
+    "any_p": 0.625,
+    "cell_repaired": 2,
+    "cell_introduced": 3,
+    "cell_informative_frames": 5,
+    "cell_p": 1.0
+  }
+}
