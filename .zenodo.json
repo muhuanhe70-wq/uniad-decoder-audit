@@ -1,0 +1,22 @@
+{
+  "upload_type": "software",
+  "title": "Auditing the Planning Decoder of a Reference End-to-End Driving Stack: code and results",
+  "description": "<p>Code and results accompanying the paper. Contains the one-line correction for the occupancy coordinate-truncation defect in UniAD's planning decoder, three magnitude-matched controls (mirror, uniform-random direction, allocation permutation), the analysis scripts, per-arm configurations, and the result files behind every number reported in the paper.</p><p>All experiments use the public uniad_base_e2e checkpoint on the full nuScenes validation split (6,019 frames) with no retraining. UniAD and nuScenes are not redistributed and remain under their own licences.</p>",
+  "license": "mit",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "He, Muhuan",
+      "affiliation": "Chongqing University of Technology"
+    }
+  ],
+  "keywords": [
+    "autonomous driving",
+    "end-to-end driving",
+    "motion planning",
+    "reproducibility",
+    "software defect",
+    "nuScenes",
+    "UniAD"
+  ]
+}
