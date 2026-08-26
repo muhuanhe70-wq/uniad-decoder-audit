@@ -1,0 +1,102 @@
+{
+ "n_eligible": 3338,
+ "k": 8,
+ "corr_retention_vs_published_magnitude": 0.4683550433625216,
+ "total_applied_reference": 528.0828996192538,
+ "total_applied_permuted_mean": 355.3413179637509,
+ "permuted_pct_of_reference_mean": 67.28892721577445,
+ "per_draw": [
+  {
+   "draw": 0,
+   "total_applied": 375.9815154856946,
+   "pct_of_reference": 71.19744187073208,
+   "n_ge": 1683,
+   "adv_ge": -1.0,
+   "informative_ge": 1,
+   "n_lt": 1655,
+   "adv_lt": 44.0,
+   "informative_lt": 36
+  },
+  {
+   "draw": 1,
+   "total_applied": 355.4920559238633,
+   "pct_of_reference": 67.31747159019389,
+   "n_ge": 1663,
+   "adv_ge": 3.0,
+   "informative_ge": 4,
+   "n_lt": 1675,
+   "adv_lt": 32.0,
+   "informative_lt": 29
+  },
+  {
+   "draw": 2,
+   "total_applied": 352.4760103675667,
+   "pct_of_reference": 66.74634051238941,
+   "n_ge": 1662,
+   "adv_ge": 0.0,
+   "informative_ge": 2,
+   "n_lt": 1676,
+   "adv_lt": 34.0,
+   "informative_lt": 33
+  },
+  {
+   "draw": 3,
+   "total_applied": 352.5132739537753,
+   "pct_of_reference": 66.75339690187587,
+   "n_ge": 1686,
+   "adv_ge": 0.0,
+   "informative_ge": 0,
+   "n_lt": 1652,
+   "adv_lt": 30.0,
+   "informative_lt": 32
+  },
+  {
+   "draw": 4,
+   "total_applied": 343.41647453470586,
+   "pct_of_reference": 65.03078868531969,
+   "n_ge": 1658,
+   "adv_ge": -1.0,
+   "informative_ge": 1,
+   "n_lt": 1680,
+   "adv_lt": 26.0,
+   "informative_lt": 29
+  },
+  {
+   "draw": 5,
+   "total_applied": 360.51589385674913,
+   "pct_of_reference": 68.26880668104951,
+   "n_ge": 1674,
+   "adv_ge": 0.0,
+   "informative_ge": 0,
+   "n_lt": 1664,
+   "adv_lt": 31.0,
+   "informative_lt": 30
+  },
+  {
+   "draw": 6,
+   "total_applied": 348.3902699435459,
+   "pct_of_reference": 65.9726475132473,
+   "n_ge": 1693,
+   "adv_ge": -1.0,
+   "informative_ge": 1,
+   "n_lt": 1645,
+   "adv_lt": 42.0,
+   "informative_lt": 35
+  },
+  {
+   "draw": 7,
+   "total_applied": 353.9450496441064,
+   "pct_of_reference": 67.02452397138778,
+   "n_ge": 1690,
+   "adv_ge": -2.0,
+   "informative_ge": 2,
+   "n_lt": 1648,
+   "adv_lt": 43.0,
+   "informative_lt": 36
+  }
+ ],
+ "advantage_where_permuted_applied_at_least_as_much": -0.25,
+ "advantage_where_permuted_applied_less": 35.25,
+ "share_of_advantage_from_lower_magnitude_frames": 1.0071428571428571,
+ "verdict": "The permuted allocations do not hold aggregate applied avoidance fixed: they apply 67.3% of the reference total, because retention correlates with published avoidance magnitude (r = +0.468). The entire reported advantage arises on frames where the permuted allocation applied less avoidance, so this control does not separate allocation from magnitude."
+}

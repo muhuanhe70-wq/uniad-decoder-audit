@@ -36,8 +36,29 @@ which is how much of the published avoidance the correction kept on that frame. 
 
 Both keep every frame's avoidance DIRECTION exactly as published, and both draw their scale
 factors from the identical multiset {s_i}. The only difference is which frame received which
-factor. Comparing Fhat against Ftil therefore isolates allocation with direction and aggregate
-magnitude both held fixed.
+factor.
+
+*** CORRECTION, 2026-08-25: the last step of that reasoning is wrong. ***
+
+Permuting {s_i} preserves the multiset of retention FACTORS, but the quantity the objection is
+about is the applied displacement m_i = s_i * ||A^B_i||, and permuting s while leaving
+||A^B_i|| where it is preserves sum(m) only if s and ||A^B|| are uncorrelated. They are not:
+r = +0.468. The permuted allocations therefore apply only 67.3% of the reference's total
+avoidance, and analysis/audit_allocation_magnitude.py shows that 100% of the advantage this
+script reports arises on the frames where the permuted allocation applied LESS. This control
+does NOT separate allocation from magnitude and its result is withdrawn in the paper.
+
+The control that would settle it permutes the applied MAGNITUDES rather than the factors:
+
+    Ftil_i = R_i + (m_{pi(i)} / ||A^B_i||) * A^B_i
+
+which reproduces the multiset {m_i}, and hence sum(m), exactly. That variant HAS since been run
+and is what the paper now reports: see controls/allocation_control_magnitude.py and
+results/allocation_control_magnitude.json (the two arms' totals agree to 1e-13 m; the real
+allocation nets +12 against -15.0, 0/8 draws better, p = 6e-5).
+
+This file is left exactly as it was run, so that the withdrawn numbers remain reproducible and
+the audit above can be checked against them.
 
 Note that Fhat is deliberately NOT the real arm F: stripping the 6% directional change removes
 the advantage the rotation control has already established, so that this test measures the one
