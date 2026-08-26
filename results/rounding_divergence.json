@@ -1,0 +1,11 @@
+{
+ "n_frames_total": 6019,
+ "n_frames_differing": 3120,
+ "euclidean_per_waypoint_mean_m": 0.020960163053900475,
+ "euclidean_per_waypoint_max_m": 1.3201762694507149,
+ "euclidean_per_frame_max_mean_m": 0.04221638040862827,
+ "euclidean_per_frame_max_max_m": 1.3201762694507149,
+ "per_axis_per_frame_max_mean_m": 0.04005707617007386,
+ "per_axis_per_frame_max_max_m": 1.141293466091156,
+ "quoted_in_paper": "euclidean_per_frame_max_mean_m and euclidean_per_frame_max_max_m"
+}

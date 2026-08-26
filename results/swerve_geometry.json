@@ -1,0 +1,26 @@
+{
+ "n_frames_total": 6019,
+ "n_frames_moved": 3339,
+ "moved_frames": {
+  "forward_progress_baseline_m": 14.217690993062027,
+  "forward_progress_corrected_m": 14.210316319768259,
+  "forward_progress_change_m": -0.007374673293767842,
+  "path_length_baseline_m": 14.53778854195313,
+  "path_length_corrected_m": 14.42742993140706,
+  "path_length_change_m": -0.11035861054607032,
+  "peak_lateral_baseline_m": 0.9487774927384831,
+  "peak_lateral_corrected_m": 0.8132022958292157,
+  "peak_lateral_change_pct": -14.28946174913498
+ },
+ "all_frames": {
+  "forward_progress_baseline_m": 16.29148269204708,
+  "forward_progress_corrected_m": 16.28739164135296,
+  "forward_progress_change_m": -0.004091050694118081,
+  "path_length_baseline_m": 16.569201716331378,
+  "path_length_corrected_m": 16.507981015116336,
+  "path_length_change_m": -0.061220701215042084,
+  "peak_lateral_baseline_m": 1.0872078013398179,
+  "peak_lateral_corrected_m": 1.0119983674670743,
+  "peak_lateral_change_pct": -6.917668708784046
+ }
+}

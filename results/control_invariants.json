@@ -1,0 +1,42 @@
+{
+ "k": 8,
+ "seed": 0,
+ "arms": {
+  "quantfix": {
+   "n_moved": 3339,
+   "max_residual_mirror_m": 3.4416913763379853e-15,
+   "max_residual_negation_m": 0.0,
+   "max_residual_rotation_m": 3.552713678800501e-15,
+   "median_cosine_per_waypoint": -0.5760721612250287,
+   "median_cross_path_fraction_per_waypoint": 0.8877139632857616,
+   "median_cosine_per_frame": -0.5634880797188869,
+   "median_cosine_frame_mean": -0.36775788612142113,
+   "n_waypoint_pairs": 14213
+  },
+  "egodiscs": {
+   "n_moved": 3338,
+   "max_residual_mirror_m": 3.2751579226442118e-15,
+   "max_residual_negation_m": 0.0,
+   "max_residual_rotation_m": 3.4416913763379853e-15,
+   "median_cosine_per_waypoint": -0.16328480826547132,
+   "median_cross_path_fraction_per_waypoint": 0.7626548377458361,
+   "median_cosine_per_frame": -0.19571151403994175,
+   "median_cosine_frame_mean": -0.14564951309968793,
+   "n_waypoint_pairs": 14168
+  },
+  "egodiscs_sum": {
+   "n_moved": 3338,
+   "max_residual_mirror_m": 3.3306690738754696e-15,
+   "max_residual_negation_m": 0.0,
+   "max_residual_rotation_m": 3.552713678800501e-15,
+   "median_cosine_per_waypoint": -0.7586705290246374,
+   "median_cross_path_fraction_per_waypoint": 0.9377287797183103,
+   "median_cosine_per_frame": -0.6413901888441548,
+   "median_cosine_frame_mean": -0.5942978050246491,
+   "n_waypoint_pairs": 14168
+  }
+ },
+ "worst_residual_any_reflection_m": 3.4416913763379853e-15,
+ "worst_residual_any_rotation_m": 3.552713678800501e-15,
+ "note": "The paper should quote a bound that covers every arm, not the value of one. Reflections: <= 3.4e-15 m. Rotations: <= 3.6e-15 m. Negations: exact."
+}

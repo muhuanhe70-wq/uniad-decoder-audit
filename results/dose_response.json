@@ -1,0 +1,95 @@
+{
+ "baseline_L2": [
+  0.336506,
+  0.507105,
+  0.718767,
+  0.981195,
+  1.288751,
+  1.646888
+ ],
+ "baseline_box_col_count": [
+  3,
+  6,
+  8,
+  10,
+  18,
+  37
+ ],
+ "horizons_s": [
+  0.5,
+  1.0,
+  1.5,
+  2.0,
+  2.5,
+  3.0
+ ],
+ "doses": {
+  "low": {
+   "run": "R-0081_2026-08-19_randtrigger",
+   "n_trig": 156,
+   "n_frames_moved": 156,
+   "trigger_count_matches_moved": true,
+   "mean_intervention_magnitude_m": 0.23621355347119924,
+   "L2": [
+    0.337591,
+    0.509225,
+    0.720948,
+    0.983365,
+    1.290566,
+    1.648035
+   ],
+   "L2_delta_vs_baseline": [
+    0.001085,
+    0.00212,
+    0.002181,
+    0.002169,
+    0.001815,
+    0.001147
+   ],
+   "box_col_count": [
+    3,
+    6,
+    8,
+    10,
+    18,
+    38
+   ],
+   "collisions_repaired": 0,
+   "collisions_introduced": 1
+  },
+  "high": {
+   "run": "R-0042_2026-08-18_ours_clampfix",
+   "n_trig": 919,
+   "n_frames_moved": 919,
+   "trigger_count_matches_moved": true,
+   "mean_intervention_magnitude_m": 0.23405220221393896,
+   "L2": [
+    0.341405,
+    0.518151,
+    0.729761,
+    0.989921,
+    1.294418,
+    1.650794
+   ],
+   "L2_delta_vs_baseline": [
+    0.004899,
+    0.011046,
+    0.010994,
+    0.008726,
+    0.005667,
+    0.003906
+   ],
+   "box_col_count": [
+    2,
+    5,
+    8,
+    10,
+    18,
+    38
+   ],
+   "collisions_repaired": 2,
+   "collisions_introduced": 1
+  }
+ },
+ "summary": "interventions 156 -> 919; per-intervention magnitude 0.236 m -> 0.234 m (comparable); L2 cost at 1.0 s +0.0021 -> +0.0110 m; collisions repaired/introduced 0/1 -> 2/1"
+}
