@@ -1,7 +1,7 @@
 {
   "upload_type": "software",
-  "title": "Auditing the Planning Decoder of a Reference End-to-End Driving Stack: code and results",
-  "description": "<p>Code and results accompanying the paper. Contains the one-line correction for the occupancy coordinate-truncation defect in UniAD's planning decoder, three magnitude-matched controls (mirror, uniform-random direction, allocation permutation), the analysis scripts, per-arm configurations, and the result files behind every number reported in the paper.</p><p>All experiments use the public uniad_base_e2e checkpoint on the full nuScenes validation split (6,019 frames) with no retraining. UniAD and nuScenes are not redistributed and remain under their own licences.</p>",
+  "title": "What the Decoder Computes and What the Benchmark Scores: Two Implementation Defects in a Reference End-to-End Driving Stack: code and results",
+  "description": "<p>Code and results accompanying the paper. Contains the one-line correction for the occupancy coordinate-truncation defect in UniAD's planning decoder, magnitude-matched direction controls (mirror, negation, uniform-random rotation), a magnitude-matched allocation control, and the audit showing why an earlier retention-permuting allocation control is confounded and withdrawn, the analysis scripts, per-arm configurations, and the result files behind every number reported in the paper.</p><p>All experiments use the public uniad_base_e2e checkpoint on the full nuScenes validation split (6,019 frames) with no retraining. UniAD and nuScenes are not redistributed and remain under their own licences.</p>",
   "license": "mit",
   "access_right": "open",
   "creators": [
@@ -9,6 +9,22 @@
       "name": "He, Muhuan",
       "affiliation": "Chongqing University of Technology",
       "orcid": "0009-0002-8114-8682"
+    },
+    {
+      "name": "Wang, Ruiqi",
+      "affiliation": "Chongqing University of Technology"
+    },
+    {
+      "name": "Guo, Chao",
+      "affiliation": "Chongqing University of Technology"
+    },
+    {
+      "name": "Zhang, Xueyang",
+      "affiliation": "Chongqing University of Technology"
+    },
+    {
+      "name": "Li, Jingsong",
+      "affiliation": "Chongqing University of Technology"
     }
   ],
   "keywords": [
