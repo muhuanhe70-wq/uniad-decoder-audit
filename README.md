@@ -139,15 +139,32 @@ python3 analysis/verify_overlap_depth.py        # how deep the repaired collisio
 python3 analysis/verify_rounding_divergence.py  # exact-cast vs rounding arm, frame by frame
 python3 analysis/verify_swerve_geometry.py      # swerves less, or travels less?
 python3 analysis/verify_dose_response.py        # cost linear in dose, benefit zero
-python3 analysis/verify_bumper_response.py      # the three-disc geometry probe (no data needed)
-python3 analysis/audit_allocation_magnitude.py  # the withdrawn control, see above
+python3 analysis/verify_bumper_response.py      # the three-disc geometry probe
+python3 analysis/audit_allocation_magnitude.py  # why the first allocation control is withdrawn
 ```
 
 writing `results/control_invariants.json`, `results/overlap_depth.json`,
 `results/rounding_divergence.json`, `results/swerve_geometry.json`,
 `results/dose_response.json`, `results/bumper_response.json` and
-`results/allocation_magnitude_audit.json`. Only
-`verify_overlap_depth.py` needs the dataset; it touches 53 frames and takes a few minutes.
+`results/allocation_magnitude_audit.json`.
+
+**What each one needs.** Six of the seven read the per-arm `results.pkl` files, which this
+repository does not ship: reproduce them first with the run commands above. Only one is
+self-contained. Times are for a machine that already has those files.
+
+| script | needs `work_dirs/*/results.pkl` | needs nuScenes | needs the UniAD source tree | time |
+|---|---|---|---|---|
+| `verify_bumper_response.py`      | no  | no  | **yes** (imports the collision optimiser) | seconds |
+| `verify_control_invariants.py`   | yes | no  | no  | seconds |
+| `verify_rounding_divergence.py`  | yes | no  | no  | seconds |
+| `verify_swerve_geometry.py`      | yes | no  | no  | seconds |
+| `verify_dose_response.py`        | yes | no  | no  | seconds |
+| `audit_allocation_magnitude.py`  | yes | no  | no  | seconds |
+| `verify_overlap_depth.py`        | yes | **yes** | **yes** | ~2 min, 53 frames |
+
+`audit_allocation_magnitude.py` additionally reads `results/allocation_control_box.npz`,
+which **is** shipped here (93 KB): it holds the sampled permutations, so the audit reproduces
+the exact draws the withdrawn control used rather than fresh ones.
 
 Two of these changed what the paper says. The direction cosines and the magnitude-match
 residuals did not reproduce under any definition we could reconstruct, so they were
