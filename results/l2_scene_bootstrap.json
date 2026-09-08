@@ -1,0 +1,93 @@
+{
+  "L2@0.5": {
+    "delta": -0.07296635205209158,
+    "ci_frame_iid": [
+      -0.07782320873376682,
+      -0.06831086338995043
+    ],
+    "ci_scene_clustered": [
+      -0.09888685528677564,
+      -0.05124631140090215
+    ],
+    "width_ratio": 5.008285776424509,
+    "icc_across_scenes": 0.6340054141156317,
+    "excludes_zero_clustered": true
+  },
+  "L2@1.0": {
+    "delta": -0.06529299032287472,
+    "ci_frame_iid": [
+      -0.06998943048842259,
+      -0.060743480183950656
+    ],
+    "ci_scene_clustered": [
+      -0.08987454553587011,
+      -0.04460804436552221
+    ],
+    "width_ratio": 4.895819215949511,
+    "icc_across_scenes": 0.5997526961767777,
+    "excludes_zero_clustered": true
+  },
+  "L2@1.5": {
+    "delta": -0.05636517791282269,
+    "ci_frame_iid": [
+      -0.06081131782003013,
+      -0.05209451892161871
+    ],
+    "ci_scene_clustered": [
+      -0.07865027335124991,
+      -0.03746779764146123
+    ],
+    "width_ratio": 4.724495332488848,
+    "icc_across_scenes": 0.557711795461133,
+    "excludes_zero_clustered": true
+  },
+  "L2@2.0": {
+    "delta": -0.047985332285895035,
+    "ci_frame_iid": [
+      -0.052142025690340446,
+      -0.04399021889614079
+    ],
+    "ci_scene_clustered": [
+      -0.0684954690027947,
+      -0.0304701895877425
+    ],
+    "width_ratio": 4.664644338983689,
+    "icc_across_scenes": 0.540097613311245,
+    "excludes_zero_clustered": true
+  },
+  "L2@2.5": {
+    "delta": -0.04018869880825084,
+    "ci_frame_iid": [
+      -0.044091218000695265,
+      -0.03643872951348943
+    ],
+    "ci_scene_clustered": [
+      -0.05863801430493314,
+      -0.02415336035476663
+    ],
+    "width_ratio": 4.506332026218825,
+    "icc_across_scenes": 0.49906015455863245,
+    "excludes_zero_clustered": true
+  },
+  "L2@3.0": {
+    "delta": -0.0364284652783551,
+    "ci_frame_iid": [
+      -0.04096589546036603,
+      -0.03203516880474582
+    ],
+    "ci_scene_clustered": [
+      -0.05313069630269085,
+      -0.021633770056664312
+    ],
+    "width_ratio": 3.526804420355331,
+    "icc_across_scenes": 0.31403945091618474,
+    "excludes_zero_clustered": true
+  },
+  "_meta": {
+    "n_frames": 6019,
+    "n_scenes": 150,
+    "n_boot": 10000,
+    "seed": 0,
+    "note": "scene-clustered bootstrap resamples whole scenes with replacement; the frame i.i.d. column reproduces the released analyse_quantfix.py"
+  }
+}

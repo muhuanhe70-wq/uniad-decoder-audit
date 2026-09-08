@@ -1,4 +1,4 @@
-# What the Decoder Computes and What the Benchmark Scores: Two Implementation Defects in a Reference End-to-End Driving Stack
+# A Retraining-Free Audit of Two Geometric Decoder Defects in Open-Loop End-to-End Driving
 
 Code and results for the paper. Everything here runs against the **public**
 `uniad_base_e2e` checkpoint on the **full nuScenes validation split** (6,019 frames).
@@ -161,6 +161,29 @@ self-contained. Times are for a machine that already has those files.
 | `verify_dose_response.py`        | yes | no  | no  | seconds |
 | `audit_allocation_magnitude.py`  | yes | no  | no  | seconds |
 | `verify_overlap_depth.py`        | yes | **yes** | **yes** | ~2 min, 53 frames |
+
+### The detection study (Section 6.3)
+
+`detection/` holds the scorer and the cross-validation protocol behind Table 9, the
+47.89% downstream AUROC and the dose-response block. These are a **separate
+protocol** from the audit above: they train a model, so none of the
+magnitude-matched controls applies to them, and they establish nothing about
+either defect. They are released so that the detection numbers are reproducible,
+not because they belong to the audit.
+
+| script | what it produces | needs nuScenes | needs the UniAD source tree |
+|---|---|---|---|
+| `train_temporal_head.py`   | the per-object scorer (`OOD_Energy_MLP`), trained with a class-weighted BCE under a fixed seed | **yes** | **yes** |
+| `cv_temporal_head.py`      | the scene-disjoint 5-fold split and the bootstrap helper | **yes** | **yes** |
+| `rule_replica_baseline.py` | the non-learned rule replica and the nine rule quantities | **yes** | **yes** |
+| `cv_external_perfold.py`   | MSP / Mahalanobis / kNN / LDA baselines, per fold | **yes** | **yes** |
+| `hybrid_head_perfold.py`   | arms A / B / C of Table 9, per fold | **yes** | **yes** |
+| `ood_split_v2.py`, `ood_spatial_gate.py` | corrected all-weather label construction and the spatial gate | **yes** | **yes** |
+
+Every one of these needs the cache files (`cache_ext_baselines.npz`,
+`cache_temporal_objects.npz`, `cache_labels3d.npz`, `risk_objects_v3.json`) built
+from nuScenes first. Those caches are **derived from nuScenes and are not shipped
+here**, for the same licence reason as everything else in this repository.
 
 `audit_allocation_magnitude.py` additionally reads `results/allocation_control_box.npz`,
 which **is** shipped here (93 KB): it holds the sampled permutations, so the audit reproduces

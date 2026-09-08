@@ -1,10 +1,14 @@
 {
   "upload_type": "software",
-  "title": "What the Decoder Computes and What the Benchmark Scores: Two Implementation Defects in a Reference End-to-End Driving Stack: code and results",
+  "title": "Code and results for \"A Retraining-Free Audit of Two Geometric Decoder Defects in Open-Loop End-to-End Driving\"",
   "description": "<p>Code and results accompanying the paper. Contains the one-line correction for the occupancy coordinate-truncation defect in UniAD's planning decoder, magnitude-matched direction controls (mirror, negation, uniform-random rotation), a magnitude-matched allocation control, and the audit showing why an earlier retention-permuting allocation control is confounded and withdrawn, the analysis scripts, per-arm configurations, and the result files behind every number reported in the paper.</p><p>All experiments use the public uniad_base_e2e checkpoint on the full nuScenes validation split (6,019 frames) with no retraining. UniAD and nuScenes are not redistributed and remain under their own licences.</p>",
   "license": "mit",
   "access_right": "open",
   "creators": [
+    {
+      "name": "Li, Jinsong",
+      "affiliation": "Chongqing University of Technology"
+    },
     {
       "name": "He, Muhuan",
       "affiliation": "Chongqing University of Technology",
@@ -23,7 +27,7 @@
       "affiliation": "Chongqing University of Technology"
     },
     {
-      "name": "Li, Jingsong",
+      "name": "Xiong, Feng",
       "affiliation": "Chongqing University of Technology"
     }
   ],
